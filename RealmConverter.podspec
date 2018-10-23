@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'RealmConverter/**/*.{swift,h,m,c}'
 
-  s.dependency 'Realm', '~> 3.8.0'
+  s.dependency 'Realm', '~> 3.11.1'
   s.dependency 'PathKit'
   s.dependency 'CSwiftV'
   s.dependency 'SSZipArchive'
