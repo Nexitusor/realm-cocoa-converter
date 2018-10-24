@@ -5,7 +5,7 @@ target 'RealmConverterMacOS' do
     pod 'Realm', '~> 3.11.1'
     pod 'PathKit'
     # This fork of CSwiftV has Swift 4 support. Once PR https://github.com/Daniel1of1/CSwiftV/pull/38 is merged this can be changed back to the main repository
-    pod 'CSwiftV', :git => "https://github.com/UberJason/CSwiftV.git" 
+    pod 'CSwiftV', :git => "https://github.com/UberJason/CSwiftV.git"
     pod 'TGSpreadsheetWriter'
 
     target 'RealmConverterTests' do
@@ -18,5 +18,5 @@ target 'RealmConverteriOS' do
     pod 'Realm', '~> 3.11.1'
     pod 'PathKit'
     # This fork of CSwiftV has Swift 4 support. Once PR https://github.com/Daniel1of1/CSwiftV/pull/38 is merged this can be changed back to the main repository
-    pod 'CSwiftV', :git => "https://github.com/UberJason/CSwiftV.git"
+    pod 'CSwiftV', :git => "https://github.com/UberJason/CSwiftV.git", :branch => 'master'
 end
